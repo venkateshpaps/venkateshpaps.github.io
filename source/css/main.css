@@ -45,21 +45,8 @@ height:50px;
     margin-top: 52px;
     margin-bottom: 20px;
 }
-.bigger-content2{
-    lost-column: 1/2;
-    height:120px;
-}
-.upper-content2{
-lost-column: 1/2;
-height:50px;
-}
-.lower-content2{
-    lost-column: 1/1 1;
-    height:50px;
-    margin-top: 52px;
-}
 
-@media (max-width:500px){
+@media (max-device-width:815px){
 body{
     color:white;
 }

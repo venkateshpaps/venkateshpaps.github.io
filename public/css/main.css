@@ -154,66 +154,8 @@ clear: both;
 .lower-content:nth-child(1n + 1){
     clear: both;
 }
-.bigger-content2{
-    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
-    height:120px;
-}
-.bigger-content2:nth-child(1n){
-    float: left;
-    margin-right: 30px;
-    clear: none;
-}
-.bigger-content2:last-child{
-    margin-right: 0;
-}
-.bigger-content2:nth-child(2n){
-    margin-right: 0;
-    float: right;
-}
-.bigger-content2:nth-child(2n + 1){
-    clear: both;
-}
-.upper-content2{
-width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
-height:50px;
-}
-.upper-content2:nth-child(1n){
-float: left;
-margin-right: 30px;
-clear: none;
-}
-.upper-content2:last-child{
-margin-right: 0;
-}
-.upper-content2:nth-child(2n){
-margin-right: 0;
-float: right;
-}
-.upper-content2:nth-child(2n + 1){
-clear: both;
-}
-.lower-content2{
-    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
-    height:50px;
-    margin-top: 52px;
-}
-.lower-content2:nth-child(1n){
-    float: left;
-    margin-right: 30px;
-    clear: none;
-}
-.lower-content2:last-child{
-    margin-right: 0;
-}
-.lower-content2:nth-child(1n){
-    margin-right: 0;
-    float: right;
-}
-.lower-content2:nth-child(1n + 1){
-    clear: both;
-}
 
-@media (max-width:500px){
+@media (max-device-width:815px){
 body{
     color:white;
 }
